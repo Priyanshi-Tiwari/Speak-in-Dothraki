@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap');
+
+:root{
+    --primary-color:#1F2937;
+    --secondary-color:#9CA3AF;
+    --third-color:#E5E7EB;
+}
+
+.header-div{
+    border: 1px solid black;
+    width:50%;
+    height:15vh;
+    margin: auto;
+    margin-top: 5px ;
+    background-color:var(--secondary-color);
+    border-radius: 5px;
+    padding: 15px 0px;
+    font-size: 3rem;
+    text-align:center;
+    box-sizing: border-box;
+    font-weight: bolder;
+    
+}
+
+body{
+    font-family: 'Source Code Pro';
+    margin:0px;
+    background-color:var(--third-color);}
+
+textarea{
+    width:50%;
+    height:10vh;
+    border: 1px solid black;
+    margin:40px auto 20px auto;
+    padding:20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: block;
+    
+}
+
+.body-image{
+    width:200px;
+    display:block;
+    margin:auto;
+}
+
+button{
+    margin:0px auto 20px auto;
+    display: block;
+}
+
+.output-div{
+    width:50%;
+    height:10vh;
+    border: 1px solid black;
+    margin:40px auto 20px auto;
+    border-radius: 5px;
+    padding:20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: block;
+
+}
+
+button{
+    box-sizing: border-box;
+    height: 10vh;
+    margin:0px auto 15px auto;
+    padding: 0px 10px 0px 10px;
+    width:20%;
+    background-color:var(--secondary-color);
+    font-size: 25px;
+    font-weight: bold;
+
+    
+}
+
