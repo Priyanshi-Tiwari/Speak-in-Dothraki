@@ -6,24 +6,28 @@
     --third-color:#E5E7EB;
 }
 
+*{
+    margin:0;
+}
+
 .header-div{
     border: 1px solid black;
-    width:50%;
     height:15vh;
     margin: auto;
-    margin-top: 5px ;
+     
     background-color:var(--secondary-color);
     border-radius: 5px;
-    padding: 15px 0px;
+    padding: 1rem 0rem;
     font-size: 3rem;
     text-align:center;
     box-sizing: border-box;
     font-weight: bolder;
     
+    
 }
 
 body{
-    font-family: 'Source Code Pro';
+    font-family: 'Source Code Pro', monospace;
     margin:0px;
     background-color:var(--third-color);}
 
