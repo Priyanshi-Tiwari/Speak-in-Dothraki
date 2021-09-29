@@ -44,6 +44,16 @@ textarea{
     
 }
 
+p{
+    margin:0.5rem auto;
+    width:50%;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+
+}
+
 .body-image{
     width:200px;
     display:block;
